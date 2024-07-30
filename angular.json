@@ -15,6 +15,7 @@
           "options": {
             "outputPath": "dist/tempor",
             "index": "src/index.html",
+            "baseHref": "/geosist/",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -39,8 +40,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "10kb",
+                  "maximumError": "20kb"
                 }
               ],
               "outputHashing": "all"
